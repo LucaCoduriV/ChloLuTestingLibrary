@@ -1,9 +1,11 @@
+package testingLib;
+
 public class ToBe<T> {
     private final T value;
     private final Exception e;
     private final String description;
 
-    public ToBe(String description, T value, Exception exception){
+    ToBe(String description, T value, Exception exception){
         this.description = description;
         this.value = value;
         e = exception;

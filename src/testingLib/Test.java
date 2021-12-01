@@ -1,5 +1,7 @@
+package testingLib;
+
 public class Test<T> {
-    Expect<T> Describe(String description){
+    public Expect<T> Describe(String description){
         return new Expect<T>(description);
     }
 }
